@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Buddies</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<!-- Added a link to Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class="text-center">The Cyrstal Kingdom</h1>
+        <h3 class="text-center">The Adorable Game With Life or Death Stakes</h3>
+    </div>
+
+    <div class="container">
+
+        <div class="Instruction-panel">
+
+            <div class="col-lg-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Instructions</h3>
+                    </div>
+
+                    <div class="Instructions">
+                        <p>You will be given a random number at the start of the game. Here are four magical crystals friends
+                            to help you.</p>
+                        <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                        <li>You win the game by matching your total score to the random number.</li>
+                        <li>You lose the game if your total score goes above the random number.</li>
+                        <li>The value of each crystal is hidden from you until you click on it.</li>
+                        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="images">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Your Crystal Friends</h3>
+                    </div>
+                </div>
+                <div class="image-crystals">
+
+                    <a href="#" class="crystals">
+                        <img src="assets/images/blue.jpg" class=crystalImage id="one" alt="Blue Gem">
+                    </a>
+                    <a href="#" class="crystals">
+                        <img src="assets/images/green.jpg" class=crystalImage id="two" alt="Green Gem">
+                    </a>
+                    <a href="#" class="crystals">
+                        <img src="assets/images/red.jpg" class=crystalImage id="three" alt="Red Gem">
+                    </a>
+                    <a href="#" class="crystals">
+                        <img src="assets/images/yellow.jpg" class=crystalImage id="four" alt="Yellow Gem">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Score Card</h3>
+                </div>
+                <div class="Tally">
+                    <div class="numberToMatch">
+                        <h4>Number To Get:
+                            <span id="randomNumber"></span>
+                        </h4>
+                    </div>
+
+                    <div class="userTotal">
+                        <h4>Your total score is:
+                            <span id="finalTotal"></span>
+                        </h4>
+                    </div>
+
+                    <div class="winsAndLosses">
+                        <h4>Wins:
+                            <span id="numberWins"></span>
+                            </br>
+                            Losses:
+                            <span id="numberLosses"></span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
