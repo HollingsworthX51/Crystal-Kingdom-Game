@@ -1,2 +1,8 @@
 # Crystal Kingdom Game
-A game app in which the user selects different color crystals to equal a random number.
+A browser game, in which you can select a specific color crystal and try to match
+the random number generated upon page loading.
+
+technologies used
+html
+javascript
+bootstrap
